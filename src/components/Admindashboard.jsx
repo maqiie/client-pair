@@ -11,7 +11,7 @@ function Admindashboard() {
      <div className="card bg-dark" style={{width: "18rem"}}>
   <div className="card-body">
     <h4 className="card-title ms-0"><i className="fas fa-users fa-fw me-3"></i><span>Students</span></h4>
-   <h6 className="total">Total: 100  <a className="ms-4" href="/students"> view</a> </h6>
+   <h6 className="total">Total: 100  <a className="ms-4" href="/"> view</a> </h6>
   
   </div>
 </div>
@@ -20,7 +20,7 @@ function Admindashboard() {
     <div className="card bg-dark" style={{width: "18rem"}}>
   <div className="card-body">
     <h4 className="card-title ms-0"><i className="fas fa-users fa-fw me-3"></i><span>Feedbacks</span></h4>
-    <h6 className="total">Total: 100  <a className="ms-4" href="/adminfeedback"> view</a> </h6>
+    <h6 className="total">Total: 100  <a className="ms-4" href="/"> view</a> </h6>
   </div>
 </div>
     </div>
@@ -28,7 +28,7 @@ function Admindashboard() {
     <div className="card bg-dark" style={{width: "18rem"}}>
   <div className="card-body">
     <h4 className="card-title ms-0"><i className="fas fa-users fa-fw me-3"></i><span>Pairs</span></h4>
-    <h6 className="total">Total: 100  <a className="ms-4" href="/pairing"> view</a> </h6>
+    <h6 className="total">Total: 100  <a className="ms-4" href="/"> view</a> </h6>
   </div>
 </div>
     </div>

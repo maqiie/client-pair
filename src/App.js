@@ -33,7 +33,7 @@ function App() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch('https://m-pair.onrender.com/user/me', {
+    fetch(`https://m-pair.onrender.com/user/me`, {
       headers: {
         Authorization: `Bearer ${token}`
       }

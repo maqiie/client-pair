@@ -7,7 +7,7 @@ const Adminprofile = ({token}) => {
    const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch('https://m-pair.onrender.com/user/me', {
+    fetch('https://m-pair.onrender.comuser/me', {
       headers: {
         Authorization: `Bearer ${token}`
       }
